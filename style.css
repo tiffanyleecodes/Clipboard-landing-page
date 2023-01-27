@@ -1,0 +1,257 @@
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size:18px;
+    
+}
+
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+   margin-top:5rem;
+    background-image: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:2rem;
+    margin: 0 1.7rem;
+}
+
+h1{
+    font-size:0px;
+}
+
+.block-1 {
+    margin-bottom:5rem;
+}
+.block-1 img{
+    margin:2rem 0; 
+}
+
+.logo-c {
+    width:30%;
+    
+}
+
+h2{
+    font-size:1.8em;
+    color:hsl(210, 10%, 33%);
+    margin-bottom:1rem;
+}
+
+p {
+
+    color:hsl(201, 11%, 66%);
+    font-size:1rem;
+    margin-bottom:2rem;
+    line-height: 1.5rem;
+
+
+
+}
+
+.ios-btn{
+    background-color: hsl(171, 66%, 44%);
+    padding:0.8rem;
+    border-radius: 1.5rem;
+    color:white;
+    font-weight: 600;
+    margin:1.5rem 0 ;
+    box-shadow: 5px 5px 3px hsl(171, 68%, 35%);
+
+    
+}
+
+.ios-btn:hover {
+    cursor: pointer;
+    background-color: hsl(171, 67%, 61%);
+}
+
+.mac-btn{
+    background-color: hsl(233, 100%, 69%);
+    padding:0.8rem;
+    border-radius: 1.5rem;
+    color:white;
+    font-weight: 600;
+    margin:1.5rem 0 ;
+    box-shadow: 5px 5px 3px hsl(233, 48%, 50%);
+}
+
+.mac-btn:hover {
+    cursor: pointer;
+    background-color: hsl(233, 69%, 73%);
+}
+
+
+.computer {
+    width:100%;
+    margin:2rem 0;
+}
+
+.block-5 {
+    margin-bottom:5rem;
+}
+.device {
+    width:100%;
+    margin:2rem 0 4rem 0;
+}
+
+.workflow-block img {
+    margin:2rem 0;
+}
+
+
+.block-11 img{
+    display:block;
+    margin:4.5rem auto;
+    
+    
+   
+}
+
+.block-13 {
+    background-color: hsl(180, 3%, 94%);
+    padding:3rem 0 0 0;
+    margin-top:6rem;
+    
+}
+
+.block-13 p {
+    
+    color:hsl(210, 10%, 33%);
+  
+}
+
+
+.logo-small{
+    width:15%;
+    margin-bottom:3rem;
+}
+
+i {
+    margin:1rem;
+    font-size:1.5rem;
+}
+
+
+@media only screen and (min-width:430px) {
+
+body {
+    background-image: url(./images/bg-header-desktop.png);
+}
+
+
+.logo-c{
+    width:10%;
+}
+
+.head{
+    font-size:2.5rem;
+}
+
+p{
+    padding:0 16rem;
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+.ios-btn, .mac-btn {
+    width:20%;
+}
+
+.big-block {
+    display: flex;
+    align-items: center;
+}
+
+.computer {
+    width:38rem;
+    position: relative;
+    left:-5rem;
+}
+
+
+.text-part{
+
+    text-align: left;
+    margin-left:1rem;
+}
+    
+.text-part p {
+    padding:0;
+    padding-right:10rem;
+}
+
+
+.device {
+    width:75%;
+}
+    
+.workflow-block {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.workflow-block p {
+    padding:0 2rem;
+}
+
+.block-11 {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.block-13{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:2rem 6rem;
+    
+}
+
+.block-13 p {
+    padding: 0;
+    margin:0;
+
+    
+}
+
+.logo-small {
+width:3%;
+margin:0 -2rem 0 0;
+}
+
+.text-group {
+    display:flex;
+    flex-wrap: wrap;
+    max-width:30rem;
+
+}
+
+.text-group p {
+    margin-right:5rem;
+}
+
+.text-group p:nth-child(5) {
+    margin-left:-1.8rem;
+}
+
+
+
+}
